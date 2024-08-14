@@ -1,0 +1,12 @@
+title: Spotlight
+author: Emil Hvitfeldt
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  revealjs-plugins:
+    - name: RevealSpotlight
+      script:
+        - spotlight.js
+      stylesheet:
+        - spotlight.css
+

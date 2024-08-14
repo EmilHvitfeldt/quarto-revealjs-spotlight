@@ -1,0 +1,35 @@
+---
+title: "Spotlight Example"
+format:
+  revealjs: default
+revealjs-plugins:
+  - spotlight
+---
+
+## In the morning
+
+Spotlight is just there on screen
+
+<br>
+
+````` markdown
+:::: {{.spotlight top="20%" left="15%"}}
+:::
+`````
+
+:::: {.spotlight top="20%" left="15%"}
+:::
+
+## In the morning
+
+Can be used as a fragment
+
+<br>
+
+````` markdown
+:::: {{.spotlight .fragment top="50%" left="40%"}}
+:::
+`````
+
+:::: {.spotlight .fragment top="50%" left="40%"}
+:::

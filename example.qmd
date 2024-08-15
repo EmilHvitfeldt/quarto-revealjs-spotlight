@@ -33,3 +33,24 @@ Can be used as a fragment
 
 :::: {.spotlight .fragment top="50%" left="40%"}
 :::
+
+## auto animate {auto-animate=true}
+
+setting `{auto-animate=true}` on slides you want to animate between
+
+:::: {.spotlight top="50%" left="40%"}
+:::
+
+## auto animate {auto-animate=true}
+
+setting `{auto-animate=true}` on slides you want to animate between
+
+:::: {.spotlight top="20%" left="80%"}
+:::
+
+## auto animate {auto-animate=true}
+
+setting `{auto-animate=true}` on slides you want to animate between
+
+:::: {.spotlight top="0%" left="0%"}
+:::

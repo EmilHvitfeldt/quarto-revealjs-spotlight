@@ -5,6 +5,8 @@ window.RevealSpotlight = function () {
       Reveal.on('ready', (event) => {
         document.querySelectorAll(".spotlight").forEach(
           (div) => {
+            div.dataset.id = "spotlight";
+
             if (div.dataset.left !== undefined) {
               div.style.left = div.dataset.left;
               delete div.dataset.left;
